@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">Pahal Tutorials</string>
+    <string name="hello_student">Hello Student</string>
+    <string name="see_all">See All</string>
+    <string name="popular_courses">Popular Courses</string>
+    <string name="subjects">Subjects</string>
+    <string name="information_practices">Information Practices</string>
+    <string name="maths">Maths</string>
+    <string name="computer_science">Computer Science</string>
+    <string name="hint_class">Class</string>
+    <string name="hint_subject">Subject</string>
+    <string name="hint_chapter_year">Chapters or year</string>
+    <string name="hint_content">Content</string>
+    <string name="hint_exercise">Excercise</string>
+    <string name="select_pdf">Select Pdf</string>
+    <string name="upload_pdf">Upload Pdf</string>
+
+    <array name="subject_list">
+        <item>Mathematics</item>
+        <item>Information Practices</item>
+        <item>Computer Science</item>
+    </array>
+
+    <array name="chapter_visible">
+        <item>ncert book</item>
+        <item>ncert examplar</item>
+        <item>ncert solution</item>
+        <item>revision notes</item>
+    </array>
+    <array name="maths_content_list">
+        <item>NCERT Books</item>
+        <item>NCERT Solutions</item>
+        <item>NCERT Exampler</item>
+        <item>CBSE Previous Year Papers</item>
+        <item>CBSE Sample Papers</item>
+        <item>Revision Notes</item>
+        <item>Important Questions</item>
+        <item>Syllabus</item>
+    </array>
+
+    <array name="ip_content_list">
+        <item>Sumita Arora - Python</item>
+        <item>Sumita Arora - Python - Solutions</item>
+        <item>CBSE Previous Year Papers</item>
+        <item>CBSE Sample Papers</item>
+        <item>Revision Notes</item>
+        <item>Important Questions</item>
+        <item>Syllabus</item>
+    </array>
+
+    <array name="cs_content_list">
+        <item>Sumita Arora - Python</item>
+        <item>Sumita Arora - Python - Solutions</item>
+        <item>CBSE Previous Year Papers</item>
+        <item>CBSE Sample Papers</item>
+        <item>Revision Notes</item>
+        <item>Important Questions</item>
+        <item>Syllabus</item>
+    </array>
+
+    <array name="cbse_12th_maths_chapters">
+        <item>1. Relation and Function</item>
+        <item>2. Inverse Trigonometric Functions</item>
+        <item>3. Matrices</item>
+        <item>4. Determinants</item>
+        <item>5. Continuity and Differentiability</item>
+        <item>6. Application of Derivatives</item>
+        <item>7. Integrals</item>
+        <item>8. Application of Integrals</item>
+        <item>9. Differential Equation</item>
+        <item>10. Vector</item>
+        <item>11. 3D Geometry</item>
+        <item>12. Linear Programming</item>
+        <item>13. Probability</item>
+    </array>
+
+    <array name="cbse_12th_ip_chapters">
+        <item>1. Data Handling using Pandas -I</item>
+        <item>2. Data Handling using Pandas -II</item>
+        <item>3. Data Visualisation</item>
+        <item>4. Database Query using SQL</item>
+        <item>5. Introduction to Computer Networks</item>
+        <item>6. Societal Impacts</item>
+    </array>
+
+    <array name="cbse_12th_cs_chapters">
+        <item>1. Computational Thinking and Programming - 2</item>
+        <item>3. Database Management</item>
+        <item>4. Database Query using SQL</item>
+        <item>5. Introduction to Computer Networks</item>
+        <item>6. Societal Impacts</item>
+    </array>
+
+    <array name="cbse_12th_maths_previous_years">
+        <item>2020 Compt.</item>
+        <item>"2020"</item>
+        <item>2019 Compt.</item>
+        <item>"2019"</item>
+        <item>2018 compt.</item>
+        <item>"2018"</item>
+        <item>2017 compt.</item>
+        <item>"2017"</item>
+        <item>"2016"</item>
+        <item>2015 compt.</item>
+        <item>"2014"</item>
+        <item>"2013"</item>
+        <item>"2012"</item>
+        <item>"2011"</item>
+    </array>
+
+    <array name="cbse_12th_IP_previous_years">
+        <item>2020 Compt.</item>
+        <item>"2020"</item>
+        <item>2019 Compt.</item>
+        <item>"2019"</item>
+        <item>2018 compt.</item>
+        <item>"2018"</item>
+        <item>2017 compt.</item>
+        <item>"2017"</item>
+        <item>"2016"</item>
+    </array>
+
+    <array name="cbse_12th_CS_previous_years">
+        <item>2020 Compt.</item>
+        <item>"2020"</item>
+        <item>2019 Compt.</item>
+        <item>"2019"</item>
+        <item>2018 compt.</item>
+        <item>"2018"</item>
+        <item>2017 compt.</item>
+        <item>"2017"</item>
+        <item>"2016"</item>
+    </array>
+
+    <array name="cbse_12th_sample_years">
+        <item>2020-21</item>
+        <item>2019-20</item>
+        <item>2018-19</item>
+        <item>2017-18</item>
+        <item>2016-17</item>
+        <item>2015-16</item>
+        <item>2014-15</item>
+    </array>
+    <array name="select_class">
+        <item>11th</item>
+        <item>12th</item>
+    </array>
+
+    <array name="contents">
+        <item>NCERT Books</item>
+        <item>NCERT Solutions</item>
+        <item>NCERT Exampler</item>
+        <item>Sumita Arora - Python</item>
+        <item>Sumita Arora - Python - Solutions</item>
+        <item>CBSE Previous Year Papers</item>
+        <item>CBSE Sample Papers</item>
+        <item>Revision Notes</item>
+        <item>Important Qustions</item>
+
+    </array>
+    <string name="title_activity_dashboard">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_add_document">Add Document</string>
+</resources>

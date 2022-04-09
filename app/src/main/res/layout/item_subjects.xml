@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minHeight="100dp"
+    android:background="@drawable/home_gradient_maths"
+    android:layout_marginBottom="10dp"
+    android:padding="10dp"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/tv_content"
+        tools:text="Maths"
+        style="@style/viewParent.headerText.HomeCardTitle" />
+
+    <TextView
+        android:text="Study nature, love nature,\nclose to nature"
+        style="@style/viewParent.headerText.homeCardContent"
+        android:layout_below="@id/tv_content"/>
+
+    <ImageView
+        android:maxHeight="90dp"
+        android:src="@drawable/home_ic_maths"
+        style="@style/homeCardImage" />
+
+</RelativeLayout>

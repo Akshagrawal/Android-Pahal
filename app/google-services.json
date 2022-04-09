@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "105035900172",
+    "firebase_url": "https://pahal-tutorials.firebaseio.com",
+    "project_id": "pahal-tutorials",
+    "storage_bucket": "pahal-tutorials.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105035900172:android:ae417c65f3e836c1",
+        "android_client_info": {
+          "package_name": "com.pahaltutorials.pahaltutorials"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105035900172-q3uofflfbr67f07oeker4p53u1a56j1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pahaltutorials.pahaltutorials",
+            "certificate_hash": "604bd86bafafc88cf5f813dd703d2fa5ac33460b"
+          }
+        },
+        {
+          "client_id": "105035900172-jpa2aufjpv7jung2tkqr67a1e59i0vk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTwcdxuNawBpVN8pk92qeouncdJv_MYfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105035900172-jpa2aufjpv7jung2tkqr67a1e59i0vk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

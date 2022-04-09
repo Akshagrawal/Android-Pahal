@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDocument">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tv_bank_branch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/floatingHintStyle"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <AutoCompleteTextView
+            android:id="@+id/et_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_class"
+            android:clickable="true"
+            android:focusable="false"
+            android:ems="10"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tv_account_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/floatingHintStyle"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bank_branch"
+        app:layout_constraintStart_toStartOf="@+id/tv_bank_branch">
+
+        <AutoCompleteTextView
+            android:id="@+id/et_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_subject"
+            android:clickable="true"
+            android:focusable="false"
+            android:ems="10"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tv_account_number_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        style="@style/floatingHintStyle"
+        app:layout_constraintTop_toBottomOf="@+id/tv_account_name"
+        app:layout_constraintStart_toStartOf="@+id/tv_account_name">
+
+        <AutoCompleteTextView
+            android:id="@+id/et_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_content"
+            android:clickable="true"
+            android:focusable="false"
+            android:ems="10" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tv_account_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/floatingHintStyle"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_account_number_pass"
+        app:layout_constraintStart_toStartOf="@+id/tv_account_number_pass">
+
+        <AutoCompleteTextView
+            android:id="@+id/et_chapter_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_chapter_year"
+            android:clickable="true"
+            android:focusable="false"
+            android:ems="10" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tv_bank_ifsc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/floatingHintStyle"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_account_number"
+        app:layout_constraintStart_toStartOf="@+id/tv_account_number">
+
+        <AutoCompleteTextView
+            android:id="@+id/et_exercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_exercise"
+            android:clickable="true"
+            android:focusable="false"
+            android:ems="10" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/select_pdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_pdf"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/tv_bank_ifsc"
+        app:layout_constraintTop_toBottomOf="@id/tv_bank_ifsc" />
+
+    <TextView
+        android:id="@+id/selected_pdfs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/select_pdf"/>
+
+    <Button
+        android:id="@+id/upload_pdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_pdf"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/selected_pdfs"
+        app:layout_constraintTop_toBottomOf="@id/selected_pdfs" />
+</androidx.constraintlayout.widget.ConstraintLayout>
